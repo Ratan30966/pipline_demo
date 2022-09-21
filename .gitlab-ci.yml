@@ -1,0 +1,9 @@
+stages:
+  - build
+  
+build:
+  stage: build
+  script:
+    - echo "Building"
+    - mkdir build
+    - touch build/info.txt
